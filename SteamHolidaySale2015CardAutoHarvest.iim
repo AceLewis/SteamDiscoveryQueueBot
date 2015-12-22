@@ -1,0 +1,47 @@
+﻿' A very simple script to autofarm the Winter 2015 Tradingcards
+
+URL GOTO=store.steampowered.com/
+
+' We have to wait 1 second as it vastly reduces the chance of loading errors
+
+' Click the "start new queue" button if it exists if not the quese is already started
+SET !ERRORIGNORE YES
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(4)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(4)>DIV>A>SPAN>SPAN" BUTTON=0
+' Sometimes the initial click does not work, this should always work but does not always so the next click should fix that
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(3)>DIV>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(2)>SPAN>SPAN" BUTTON=0
+SET !ERRORIGNORE NO
+WAIT SECONDS=1
+
+URL GOTO=store.steampowered.com/
+
+' Click the Queue button now the queue has been created (or continue if it already existed)
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(3)>A>DIV>DIV>DIV" BUTTON=0
+' Now click next 12 times, as simple as that
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+WAIT SECONDS=1
+' Rerun the script upto 3 times daily
