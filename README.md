@@ -9,6 +9,4 @@ To use the script just download the script and copy it to the iMacros folder (de
 
 When the script is downloaded you can simply run the script the number of times equal to the number of cards you have left to claim that day using "Play (Loop)".
 
-You will run into problems with age verification if you don't have your age saved in your cookies so please do that before starting go to [HERE](http://store.steampowered.com/agecheck/app/271590/) and input your age so Steam will not prompt you for an age check.
-
 This script should work for all languages, you can get a maximum of 3 trading cards a day up until the 4th of January 2016.

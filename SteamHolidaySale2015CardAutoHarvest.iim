@@ -18,30 +18,148 @@ URL GOTO=store.steampowered.com/
 ' Click the Queue button now the queue has been created (or continue if it already existed)
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(5)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(3)>A>DIV>DIV>DIV" BUTTON=0
+
 ' Now click next 12 times, as simple as that
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
+
+
+'age check
+WAIT SECONDS=0.5
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>SELECT:nth-of-type(3)>OPTION:nth-of-type(81)" BUTTON=0
+WAIT SECONDS=0.1
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>DIV>FORM>A>SPAN" BUTTON=0
+
 WAIT SECONDS=1
 EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(7)>DIV:nth-of-type(3)>DIV>DIV:nth-of-type(2)>DIV:nth-of-type(4)>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>SPAN" BUTTON=0
-WAIT SECONDS=1
-' Rerun the script upto 3 times daily
