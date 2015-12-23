@@ -5,4 +5,6 @@ To use the script just download the script or just copy and paste the text into 
 
 This script should work for all languages, you can get a maximum of 3 trading cards a day up until the 4th of January 2016.
 
-For people with iMacros installed an iMacros script can be downloaded from the iMacros folder. 
+For people with iMacros installed an iMacros script can be downloaded from the iMacros folder.
+
+To run the script go to the [steam storepage](http://store.steampowered.com/) and click the "Get cards" button in the top left hand corner.
