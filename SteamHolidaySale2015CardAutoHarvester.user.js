@@ -4,10 +4,10 @@
 // @description Automatically harvest daily free steam trading cards
 // @include     http*://store.steampowered.com/*
 // @grant       GM_addStyle
-// @require "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 // ==/UserScript==
 
-this.$ = this.jQuery = jQuery.noConflict(true);
+//this.$ = this.jQuery = jQuery.noConflict(true);
 
 // Create button
 var zNode = document.createElement ('div');
@@ -21,14 +21,18 @@ document.getElementById ("myButton").addEventListener (
 );
 
 function ButtonClickAction(zEvent) {
-    window.location.replace("http://store.steampowered.com/explore")
+    window.location.replace('http://store.steampowered.com/explore')
     OpenQueue();
 }
 
+console.log(window.location.href)
+
 if (window.location.href.indexOf('agecheck') > -1){
+    console.log('Age check')
     ByPassAgeCheck();
 }
 else if (window.location.href.indexOf('/app/') > -1){
+    console.log('Click next')
     ClickNext();
 }
 else if (window.location.href.indexOf('/explore') > -1){
@@ -38,8 +42,10 @@ else if (window.location.href.indexOf('/explore') > -1){
 
 function OpenQueue(){
     // Click the button to go to start the queue
-    jQuery('#refresh_queue_btn').click();
-    jQuery('.discovery_queue_start_link').click();
+    //jQuery('#refresh_queue_btn').click();
+    document.querySelector('#refresh_queue_btn').click()
+    //jQuery('.discovery_queue_start_link').click();
+    document.querySelector('.discovery_queue_start_link').click()
 }
 
 function ByPassAgeCheck(){
@@ -53,15 +59,15 @@ function ByPassAgeCheck(){
 
     // Loop through selection list
     for (var Index = 0; SelectionList.length !== Index; ++Index) {
-	    // Get selection
-	    var Selection = SelectionList[Index];
+        // Get selection
+        var Selection = SelectionList[Index];
 
-	    // Check name
-	    if ('ageYear' === Selection.name)
-	    {
-	    	// Set year
-	    	Selection.value = '1970';
-	    }
+        // Check name
+        if ('ageYear' === Selection.name)
+        {
+            // Set year
+            Selection.value = '1970';
+        }
     }
 
     // Submit form
@@ -70,7 +76,10 @@ function ByPassAgeCheck(){
 
 
 function ClickNext(){
-    jQuery('.next_in_queue_content').click();
+    console.log('Will click button')
+    //jQuery('.next_in_queue_content').click();
+    document.querySelector('.next_in_queue_content').click()
+
 }
 
 // CSS for button
