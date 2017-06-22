@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        SteamHolidaySale2015CardAutoHarvester
+// @name        SteamDiscoveryQueueBot
 // @namespace   https://AceLewis.com
 // @description Automatically harvest daily free steam trading cards
 // @include     http*://store.steampowered.com/*
@@ -50,7 +50,7 @@ function OpenQueue(){
 
 function ByPassAgeCheck(){
     // A cleaned up version of http://userscripts-mirror.org/scripts/review/97849
-    
+
     // Get form
     var AgeForm = document.getElementById('agegate_box').getElementsByTagName('form')[0];
 
