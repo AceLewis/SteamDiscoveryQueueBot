@@ -21,18 +21,18 @@ document.getElementById ("myButton").addEventListener (
 );
 
 function ButtonClickAction(zEvent) {
-    window.location.replace('http://store.steampowered.com/explore')
+    window.location.replace('http://store.steampowered.com/explore');
     OpenQueue();
 }
 
-console.log(window.location.href)
+console.log(window.location.href);
 
 if (window.location.href.indexOf('agecheck') > -1){
-    console.log('Age check')
+    console.log('Age check');
     ByPassAgeCheck();
 }
 else if (window.location.href.indexOf('/app/') > -1){
-    console.log('Click next')
+    console.log('Click next');
     ClickNext();
 }
 else if (window.location.href.indexOf('/explore') > -1){
@@ -43,42 +43,49 @@ else if (window.location.href.indexOf('/explore') > -1){
 function OpenQueue(){
     // Click the button to go to start the queue
     //jQuery('#refresh_queue_btn').click();
-    document.querySelector('#refresh_queue_btn').click()
+    document.querySelector('#refresh_queue_btn').click();
     //jQuery('.discovery_queue_start_link').click();
-    document.querySelector('.discovery_queue_start_link').click()
+    document.querySelector('.discovery_queue_start_link').click();
 }
 
 function ByPassAgeCheck(){
     // A cleaned up version of http://userscripts-mirror.org/scripts/review/97849
 
     // Get form
-    var AgeForm = document.getElementById('agegate_box').getElementsByTagName('form')[0];
+    try {
+        var AgeForm = document.getElementById('agegate_box').getElementsByTagName('form')[0];
 
-    // Get selection list
-    var SelectionList = AgeForm.getElementsByTagName('select');
+        // Get selection list
+        var SelectionList = AgeForm.getElementsByTagName('select');
 
-    // Loop through selection list
-    for (var Index = 0; SelectionList.length !== Index; ++Index) {
-        // Get selection
-        var Selection = SelectionList[Index];
+        // Loop through selection list
+        for (var Index = 0; SelectionList.length !== Index; ++Index) {
+            // Get selection
+            var Selection = SelectionList[Index];
 
-        // Check name
-        if ('ageYear' === Selection.name)
-        {
-            // Set year
-            Selection.value = '1970';
+            // Check name
+            if ('ageYear' === Selection.name)
+            {
+                // Set year
+                Selection.value = '1970';
+            }
         }
-    }
 
-    // Submit form
-    AgeForm.submit();
+        // Submit form
+        AgeForm.submit();
+    }
+    catch(err) {
+        // Other form of age check
+        var NewAgeForm = document.getElementById('next_in_queue_form');
+        NewAgeForm.submit();
+    }
 }
 
 
 function ClickNext(){
-    console.log('Will click button')
+    console.log('Will click button');
     //jQuery('.next_in_queue_content').click();
-    document.querySelector('.next_in_queue_content').click()
+    document.querySelector('.next_in_queue_content').click();
 
 }
 
